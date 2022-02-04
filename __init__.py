@@ -1,6 +1,4 @@
 from mycroft import MycroftSkill, intent_file_handler
-import pafy
-import vlc
 
 
 class DragonMaid(MycroftSkill):
