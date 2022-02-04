@@ -9,8 +9,9 @@ class DragonMaid(MycroftSkill):
 
     @intent_file_handler('maid.dragon.intent')
     def handle_maid_dragon(self, message):
+		self.speak_dialog("playing it")
 
 
 def create_skill():
-    return DragonMaid()
+	return DragonMaid()
 
